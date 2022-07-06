@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
@@ -12,27 +13,50 @@ code {
     monospace;
 }
 
-h1{
-  color: blueviolet;
+/* Header */
+
+.header-container {
+  display: flex;
+  height: 600px;
 }
 
-
-/* Navbar */
-
-.navbar-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 60px;
-  background: rgb(97, 87, 255);
-  padding: 20px 60px 10px 60px;
+.container-left {
+  width: 70%;
+  background-color: #4831d4;
 }
 
 .logotipo {
-  color: white;
+  color: #ccf381;
   font-size: 48px;
   font-family: 'Bebas Neue', cursive;
+  margin-left: 60px;
+  margin-top: 30px;
 }
-.menu {
+
+.header-box p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/* Header direta */
+
+.container-rigth {
+  width: 30%;
+  background-color: #ccf381;
+}
+
+.menu img {
+  height: 50px;
+  margin-top: 20px;
+  align-items: flex-end;
+}
+
+.header-photo {
   height: 50px;
 }
